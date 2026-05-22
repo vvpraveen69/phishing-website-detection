@@ -1,13 +1,62 @@
-RQ1: How accurately can machine learning models classify phishing and legitimate websites using URL-based features?
+# Research Questions and Answers
 
-RQ2: Which URL-based features contribute most to phishing website detection performance?
+## RQ1
+### Research Question
+How accurately can machine learning models classify phishing and legitimate websites using URL-based features?
 
-RQ3: How does the Random Forest classifier perform compared to Logistic Regression in phishing website classification?
+### Answer
+The Random Forest classifier achieved strong phishing detection performance with an accuracy of 96.98%, precision of 95.19%, recall of 96.11%, F1-score of 95.65%, and ROC-AUC of 99.49%. These results indicate that machine learning models can effectively classify phishing and legitimate websites using URL-based features.
 
-RQ4: How effectively can machine learning models reduce false positives in phishing website detection?
+---
 
-RQ5: How well does the proposed model distinguish phishing websites from legitimate websites using ROC-AUC analysis?
+## RQ2
+### Research Question
+Which URL-based features contribute most to phishing website detection performance?
 
-RQ6: What is the relationship between URL structural characteristics and phishing prediction accuracy?
+### Answer
+Feature importance analysis showed that URL structural characteristics such as suspicious symbols, URL length, abnormal subdomain patterns, HTTPS usage, and special character frequency contributed significantly to phishing detection performance. These features played an important role in distinguishing phishing websites from legitimate websites.
 
-RQ7: Can feature importance analysis improve interpretability in phishing website detection systems?
+---
+
+## RQ3
+### Research Question
+How does the Random Forest classifier perform compared to Logistic Regression in phishing website classification?
+
+### Answer
+The Random Forest classifier demonstrated superior classification performance compared to Logistic Regression due to its ability to capture complex nonlinear relationships between URL features. Random Forest also achieved higher prediction accuracy and stronger generalization performance for phishing website detection.
+
+---
+
+## RQ4
+### Research Question
+How effectively can machine learning models reduce false positives in phishing website detection?
+
+### Answer
+The implemented machine learning model successfully minimized false positives while maintaining high phishing detection capability. The confusion matrix analysis showed that the Random Forest classifier accurately distinguished legitimate websites from phishing websites with a low false-positive rate.
+
+---
+
+## RQ5
+### Research Question
+How well does the proposed model distinguish phishing websites from legitimate websites using ROC-AUC analysis?
+
+### Answer
+The proposed Random Forest model achieved a ROC-AUC score of 99.49%, indicating excellent capability in distinguishing phishing websites from legitimate websites. The ROC curve demonstrated strong classification performance and reliable prediction behavior.
+
+---
+
+## RQ6
+### Research Question
+What is the relationship between URL structural characteristics and phishing prediction accuracy?
+
+### Answer
+The experimental results showed that URL structural characteristics have a strong relationship with phishing prediction accuracy. Features such as suspicious tokens, URL complexity, domain irregularities, and abnormal URL patterns significantly improved the machine learning model’s predictive performance.
+
+---
+
+## RQ7
+### Research Question
+Can feature importance analysis improve interpretability in phishing website detection systems?
+
+### Answer
+Feature importance analysis improved interpretability by identifying the most influential URL features contributing to phishing predictions. This helped explain the model’s decision-making process and increased transparency in phishing website detection.
