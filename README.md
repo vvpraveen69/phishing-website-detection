@@ -47,7 +47,22 @@ The Random Forest model achieved:
 - matplotlib
 - seaborn
 - scikit-learn
+  
+## Research Questions
 
+1. How accurately can machine learning models classify phishing and legitimate websites using URL-based features?
+
+2. Which URL-based features contribute most to phishing website detection performance?
+
+3. How does the Random Forest classifier perform compared to Logistic Regression in phishing website classification?
+
+4. How effectively can machine learning models reduce false positives in phishing website detection?
+
+5. How well does the proposed model distinguish phishing websites from legitimate websites using ROC-AUC analysis?
+
+6. What is the relationship between URL structural characteristics and phishing prediction accuracy?
+
+7. Can feature importance analysis improve interpretability in phishing website detection systems?
 ## How to Run
 1. Open the notebook file
 2. Install required libraries
